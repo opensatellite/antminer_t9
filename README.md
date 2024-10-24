@@ -1,5 +1,5 @@
-# Antminer T9 controller as PYNQ devboard
-![antminer_t9_control_board.jpg]
+# Antminer T9 controller as ZYNQ devboard
+![](doc/antminer_t9_control_board.jpg)
 
 # Quick start
 - Download PYNQ offical SD image `http://www.pynq.io/boards.html`
