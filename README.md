@@ -12,8 +12,9 @@
 - Connect ethernet cable, following PYNQ offical guide.
 
 Notes:
-- Bootup takes about 30secs, ethernet is DHCP
-- SSH and jupyter access: username=xilinx, password=xilinx.
+- It's Ubuntu 22.04 inside, with gcc, jupyter and numpy preinstalled.
+- Bootup takes about 30secs, ethernet is DHCP.
+- SSH and jupyter access: url=http://pynq.local/ username=xilinx, password=xilinx.
 
 # Vivado quick config
 - CPU XC7Z010-1CLG400C
