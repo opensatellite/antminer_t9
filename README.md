@@ -1,3 +1,6 @@
+# Antminer T9 controller as PYNQ devboard
+![antminer_t9_control_board.jpg]
+
 # Quick start
 - Download PYNQ offical SD image `http://www.pynq.io/boards.html`
 - Use Raspberry Pi Imager to write the SD image into a TF Card
@@ -13,14 +16,14 @@ Notes:
 - SSH and jupyter access: username=xilinx, password=xilinx.
 
 # Vivado quick config
-CPU XC7Z010-1CLG400C
-PS-PL, Non Secure Enablement, M AXI GP0, Disable
-MIO0, MIO2~14 NAND FLASH
-MIO16~27 MIO52~53 ENET0+MDIO, PHY ADDR=1
-MIO40~45 SD0
-MIO48~49 UART1
-DDR MT41K128M16JT-125:K (D9PTK) 32Bit, No ECC
-Interrupts Enable
+- CPU XC7Z010-1CLG400C
+- PS-PL, Non Secure Enablement, M AXI GP0, Disable
+- MIO0, MIO2~14 NAND FLASH
+- MIO16~27 MIO52~53 ENET0+MDIO, PHY ADDR=1
+- MIO40~45 SD0
+- MIO48~49 UART1
+- DDR MT41K128M16JT-125:K (D9PTK) 32Bit, No ECC
+- Interrupts Enable
 
 # Ethernet PHY
 Broadcom B50612D PHYA[0]=1 TEST2/3=00 -> PHYAddr=1, `reg = <1>`
