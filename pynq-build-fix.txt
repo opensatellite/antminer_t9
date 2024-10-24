@@ -1,0 +1,10 @@
+build sd image:
+
+* for xrt to build properly:
+export XILINX_VITIS=/opt/xilinx/Vitis/2022.1
+* if gcc-mb failed:
+ rm -fr /home/sa/PYNQ/sdbuild/build/gcc-mb
+* start build
+cd PYNQ/sdbuild
+make REBUILD_PYNQ_SDIST=True REBUILD_PYNQ_ROOTFS=True
+

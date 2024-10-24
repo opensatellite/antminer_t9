@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]pynq_t9_fsbl.elf
+	u-boot.elf
+}
