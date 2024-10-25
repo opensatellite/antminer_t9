@@ -2,9 +2,9 @@
 ![](doc/antminer_t9_control_board.jpg)
 
 # Quick start
-- Download PYNQ offical SD image `http://www.pynq.io/boards.html`
+- Download PYNQ Z1 offical SD image `http://www.pynq.io/boards.html`
 - Use Raspberry Pi Imager to write the SD image into a TF Card
-- Copy everything inside `boot/` folder into the 1st partition of the TF Card
+- Copy everything inside `boot/` folder into the 1st partition of the TF Card (overwrite files with same name)
 - Remove image.ub from the TF Card
 - Plug the TF Card into antminer T9
 - Set jumper JP4=1, JP3=0, JP2=1, JP1=0. 1=Left, 0=Right.
